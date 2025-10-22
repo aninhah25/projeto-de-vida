@@ -10,3 +10,8 @@ for (let i = 0;i<botoes.length;i++){
                 textos[i].classList.add("ativo");
     }
 }
+const tempoObjetivo1 = new Date("2023_10_05T00:00:00");
+const tempoObjetivo2 = new Date("2023_12_05T00:00:00");
+const tempoObjetivo3 = new Date("2023_12_30T00:00:00");
+const tempoObjetivo4 = new Date("2024_02_01T00:00:00");
+const tempos= [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
